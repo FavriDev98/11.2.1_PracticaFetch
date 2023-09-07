@@ -6,8 +6,6 @@ btn.addEventListener('click', function () {
     let sname = document.getElementById('sname').value;
     let date = document.getElementById('date').value;
 
-    console.log(name, sname, date);
-
     fetch(url, {
         headers: { "Content-Type": "application/json; charset=utf-8" },
         method: 'POST',
